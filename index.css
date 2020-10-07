@@ -12,6 +12,13 @@ header{
 header a {
   font-style: normal;
 }
+header article h1{
+  animation: logomovement .5s infinite linear alternate;
+}
+@keyframes logomovement {
+  0% {transform: translate(10px, 0px);}
+  100% {transform: translate(10px, 10px); }
+}
 header nav{
 
 }
@@ -50,5 +57,5 @@ main .eventAlarm{
   right: 10px;
 }
 footer .company {
-  font-size: 
+  font-size:
 }
